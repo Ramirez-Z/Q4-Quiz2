@@ -1,0 +1,14 @@
+
+body{
+	background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdXB3azYxODk3OTY4LXdpa2ltZWRpYS1pbWFnZS1qb2I1NzItMS5qcGc.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.form-content{
+	font-family: varela round;
+}
+
+h2{
+	font-family: oswald;
+}
