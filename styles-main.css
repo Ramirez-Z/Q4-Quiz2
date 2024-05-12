@@ -1,3 +1,11 @@
-.search{
-	margin-left: auto;
+.navigation {
+  background-color: rgb(206, 196, 90);
+}
+
+.nav-link {
+  color: white;
+}
+
+.search {
+  margin-left: auto;
 }

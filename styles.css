@@ -1,0 +1,11 @@
+.container {
+  width: 650px;
+  margin: auto;
+  border: solid;
+  border-radius: 15px;
+  background-color: rgb(206, 196, 90);
+}
+
+body {
+  background-color: #81a2c1ff;
+}

@@ -1,0 +1,26 @@
+.navigation {
+  background-color: rgb(206, 196, 90);
+}
+
+.nav-link {
+  color: white;
+}
+
+.search {
+  margin-left: auto;
+}
+
+body {
+  background-color: #324e59;
+}
+
+table,
+.reference {
+  background-color: #324e59;
+  color: #0bbf7d;
+  margin: auto;
+}
+
+.more {
+  margin-right: 25px;
+}
