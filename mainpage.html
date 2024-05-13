@@ -4,6 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Poetsen One -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+
     <!--bootstrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -26,11 +34,15 @@
 
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="page2.html">1st Quarter</a>
+              <a class="nav-link" id="prof">Profile</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="page3.html">2nd Quarter</a>
+              <a class="nav-link" id="1st">1st Quarter</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" id="2nd">2nd Quarter</a>
             </li>
           </ul>
 
@@ -41,10 +53,42 @@
         </nav>
       </div>
 
+      <script>
+        let profile = "mainpage.html";
+        document.getElementById("prof").onclick = function () {
+          window.location.replace(profile);
+        };
+
+        let quarter1 = "page2.html";
+        document.getElementById("1st").onclick = function () {
+          window.location.replace(quarter1);
+        };
+
+        let quarter2 = "page3.html";
+        document.getElementById("2nd").onclick = function () {
+          window.location.replace(quarter2);
+        };
+      </script>
+
       <br /><br />
 
-      <div class="container">
+      <div class="container content">
         <p class="h1 text-center">ONLINE PORTFOLIO</p>
+
+        <br />
+
+        <div class="content text-center">
+          <p class="h4">
+            This is my Grade 9 Portfolio. It containts all the ICT projects I've
+            done throughout the school year. These projects range from basic
+            HTML elements to complex CSS and Bootstrap functions and designs.
+            <br/><br/>
+            The First Quarter focuses only on the use of basic HTML elements and designing tools only. No CSS properties or elements were used in this quarter's project.
+            <br/><br/>
+            The Second Quarter will know see the use of CSS properties like "background-color" and it will be used to style my images. This quarter's project used fonts to alter my text from the basic font of HTML. And finally, my teacher (Ms. Pasco) helped me with complex CSS Properties like overflow and overlay to make the project more appealing
+          </p>
+        </div>
+        </div>
       </div>
     </div>
   </body>

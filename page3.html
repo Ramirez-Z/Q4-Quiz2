@@ -4,6 +4,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="styles-tourist.css" />
+
+    <!-- Poetsen One -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Varela Round -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,11 +43,15 @@
 
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="page2.html">1st Quarter</a>
+              <a class="nav-link" id="prof">Profile</a>
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="page3.html">2nd Quarter</a>
+              <a class="nav-link" id="1st">1st Quarter</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" id="2nd">2nd Quarter</a>
             </li>
           </ul>
 
@@ -47,6 +61,23 @@
           </form>
         </nav>
       </div>
+
+      <script>
+        let profile = "mainpage.html";
+        document.getElementById("prof").onclick = function () {
+          window.location.replace(profile);
+        };
+
+        let quarter1 = "page2.html";
+        document.getElementById("1st").onclick = function () {
+          window.location.replace(quarter1);
+        };
+
+        let quarter2 = "page3.html";
+        document.getElementById("2nd").onclick = function () {
+          window.location.replace(quarter2);
+        };
+      </script>
 
       <br />
 

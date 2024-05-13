@@ -4,8 +4,8 @@
 
 .nav-link {
   color: white;
+  font-family: Poetsen One;
 }
-
 .search {
   margin-left: auto;
 }
@@ -34,7 +34,7 @@
   position: relative;
   text-align: center;
 
-  font-family: varela round;
+  font-family: Varela Round;
   font-size: 13px;
 }
 

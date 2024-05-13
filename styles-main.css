@@ -4,8 +4,23 @@
 
 .nav-link {
   color: white;
+  font-family: Poetsen One;
 }
 
 .search {
   margin-left: auto;
+}
+
+.h1 {
+  font-family: Poetsen One;
+  font-size: 50px;
+  color: white;
+}
+
+.content {
+  width: 1000px;
+}
+
+body {
+  background-color: #81a2c1ff;
 }
