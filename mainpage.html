@@ -54,19 +54,22 @@
       </div>
 
       <script>
-        let profile = "mainpage.html";
+        let profile = "mainpage.html"; //replaces href of the bootstrap code
         document.getElementById("prof").onclick = function () {
-          window.location.replace(profile);
+          //gets the element via id
+          window.location.replace(profile); //function allows the variable be replaced with the new window link
         };
 
-        let quarter1 = "page2.html";
+        let quarter1 = "page2.html"; //replaces href of the bootstrap code
         document.getElementById("1st").onclick = function () {
-          window.location.replace(quarter1);
+          //gets the element via id
+          window.location.replace(quarter1); //function allows the variable be replaced with the new window link
         };
 
-        let quarter2 = "page3.html";
+        let quarter2 = "page3.html"; //replaces href of the bootstrap code
         document.getElementById("2nd").onclick = function () {
-          window.location.replace(quarter2);
+          //gets the element via id
+          window.location.replace(quarter2); //function allows the variable be replaced with the new window link
         };
       </script>
 
@@ -77,18 +80,28 @@
 
         <br />
 
-        <div class="content text-center">
-          <p class="h4">
+        <div class="text-center">
+          <p class="h4 description">
             This is my Grade 9 Portfolio. It containts all the ICT projects I've
             done throughout the school year. These projects range from basic
             HTML elements to complex CSS and Bootstrap functions and designs.
-            <br/><br/>
-            The First Quarter focuses only on the use of basic HTML elements and designing tools only. No CSS properties or elements were used in this quarter's project.
-            <br/><br/>
-            The Second Quarter will know see the use of CSS properties like "background-color" and it will be used to style my images. This quarter's project used fonts to alter my text from the basic font of HTML. And finally, my teacher (Ms. Pasco) helped me with complex CSS Properties like overflow and overlay to make the project more appealing
           </p>
         </div>
-        </div>
+      </div>
+      <br /><br /><br /><br />
+      <div class="container overview">
+        <p class="h4">
+          The First Quarter focuses only on the use of basic HTML elements and
+          designing tools only. No CSS properties or elements were used in this
+          quarter's project.
+          <br /><br />
+          The Second Quarter will know see the use of CSS properties like
+          "background-color" and it will be used to style my images. This
+          quarter's project used fonts to alter my text from the basic font of
+          HTML. And finally, my ICT teacher (Ms. Pasco) helped with complex CSS
+          Properties like overflow and overlay to make the project more
+          appealing.
+        </p>
       </div>
     </div>
   </body>

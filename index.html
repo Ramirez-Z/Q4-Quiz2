@@ -22,6 +22,7 @@
         <br />
         <img
           src="https://i.pinimg.com/originals/cf/34/97/cf3497a0a8ee5c0a0e4a2b5a441214e6.gif"
+          class="snoopy"
           alt="snoopy-waving"
           width="350px"
           style="border-radius: 25px"
@@ -55,9 +56,19 @@
 
         <br />
 
-        <a href="mainpage.html" class="btn btn-outline-dark">Login</a>
-        <button type="submit" class="btn btn-outline-dark">Cancel</button>
+        <a class="btn btn-outline-dark" id="login">Login</a>
+        <button type="submit" class="btn btn-outline-dark" id="cancel">
+          Cancel
+        </button>
       </form>
+
+      <script>
+        let main = "mainpage.html"; //replaces href of the bootstrap code
+        document.getElementById("login").onclick = function () {
+          //gets the element via id
+          window.location.replace(main); //function allows the variable be replaced with the new window link
+        };
+      </script>
       <br />
     </div>
   </body>
