@@ -30,6 +30,7 @@
   border-radius: 10px;
   border-width: 5px;
   padding: 15px;
+  background-color: #243d51ff;
 }
 
 .overview {
@@ -41,6 +42,7 @@
   border-width: 5px;
   padding: 15px;
 
+  background-color: #243d51ff;
   color: white;
 }
 

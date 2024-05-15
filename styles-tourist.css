@@ -35,8 +35,7 @@
   position: relative;
   text-align: center;
 
-  font-family: Varela Round;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .content {
@@ -58,39 +57,44 @@
   gap: 45px;
   justify-content: center;
 
-  font-family: varela round;
+  font-family: Poetsen One;
   font-size: 14.05px;
 }
 
 .header {
-  border: dashed;
+  border: solid;
   border-color: white;
   border-radius: 15px;
-  background-color: #52b788;
+  border-width: 5px;
+  background-color: #243d51ff;
   width: 750px;
   text-align: center;
   margin: auto;
   padding: 10px;
 
-  font-family: varela round;
-  color: black;
+  font-family: Poetsen One;
+  color: lightcyan;
 }
 
 .intro {
-  border: dashed;
+  border: solid;
   border-color: white;
   border-radius: 15px;
-  background-color: #52b788;
+  border-width: 5px;
+  background-color: #243d51ff;
   width: 1100px;
   text-align: center;
   margin: auto;
   padding: 13px;
+
+  font-family: Poetsen One;
+  color: lightcyan;
 }
 
 .whole {
-  background-image: url(https://t4.ftcdn.net/jpg/03/37/09/33/360_F_337093394_PbQRVGjWCEdUSwlc24QZIkxeboZDhVvw.jpg);
-  background-attachment: fixed;
+  background-image: url(mountain_blue_wallpaper.png);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .pic {
@@ -114,7 +118,14 @@ h2,
 }
 
 h2 {
+  border: solid;
+  border-radius: 15px;
+  border-width: 5px;
+  padding: 10px;
+
   margin-left: 15px;
+
+  background-color: #243d51ff;
 }
 
 body {
